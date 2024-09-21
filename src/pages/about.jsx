@@ -10,7 +10,6 @@ export default function About() {
                
                hello about done 
 
-shifa khan
             </div>
         </>
     )

@@ -9,7 +9,8 @@ export default function About() {
                 <h1> About section is here</h1>
                
                hello about done 
-
+                  
+                  bharat mata ki jai!
             </div>
         </>
     )

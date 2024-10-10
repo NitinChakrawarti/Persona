@@ -5,7 +5,7 @@ const Aboutfibo = () => {
     return (
         <>
             <div className='text-text_light pt-16 flex justify-between'>
-                <div className='flex justify-start px-32  h-[450px] text-3xl bg-primary opacity-75 text-white pt-[-2vmax] md:flex-row flex-col w-[100%] items-center gap-6'>
+                <div className='flex justify-start px-36  h-[450px] text-3xl bg-primary opacity-75 text-white pt-[-2vmax] md:flex-row flex-col w-[100%] items-center gap-6'>
 
                     <div className="md:w-[80%] w-[100%] flex gap-24">
 
@@ -17,7 +17,6 @@ const Aboutfibo = () => {
                                 <img className="h-[200px] rounded-md" src={logo} />
                             </div>
                         </div>
-
                         <p className='text-[1.3vmax] text-start pt-28 font-bold text-text_dark ' >
                             Fibonacci is a rapidly growing coding community dedicated to empower
                             developers and encouraging a culture of continuous learning.
@@ -25,6 +24,7 @@ const Aboutfibo = () => {
                             members can enhance their coding skills, exchange knowledge, and
                             solve complex algorithmic challenges.
                         </p>
+
                     </div>
                 </div>
             </div>

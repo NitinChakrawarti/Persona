@@ -21,3 +21,21 @@ button{
     height: 200px !important;
     width: 100%;
 }
+
+
+
+.auto_scroll_activity_section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+    
+}
+
+@keyframes swipe {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}

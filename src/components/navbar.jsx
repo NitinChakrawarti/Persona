@@ -15,13 +15,13 @@ export default function Nav() {
                     <div className="flex flex-row gap-6 items-center">
                         <div>
                             <ul className="flex items-center justify-between gap-8 text-[1.2vmax] font-bold " >
-                                <Link className="hover:text-secondary" to="/"  >Home </Link>
-                                <Link className="hover:text-secondary" to="/about" > About </Link>
-                                <Link className="hover:text-secondary" to="/team" > Team </Link>
-                                <Link className="hover:text-secondary" to="/contact" > Contact </Link>
+                                <Link className="hover:text-white" to="/"  >Home </Link>
+                                <Link className="hover:text-white" to="/about" > About </Link>
+                                <Link className="hover:text-white" to="/team" > Team </Link>
+                                <Link className="hover:text-white" to="/contact" > Contact </Link>
                             </ul>
                         </div>
-                        <button className=" font-bold text-[1.2vmax] text-text_dark bg-primary/90 px-4 py-2 rounded-lg border-[1px] border-text_white hover:text-secondary">
+                        <button className=" font-bold text-[1.2vmax] text-text_dark bg-primary/90 px-4 py-2 rounded-lg border-[1px] border-text_white hover:text-white">
                             Register Now
                         </button>
                     </div>

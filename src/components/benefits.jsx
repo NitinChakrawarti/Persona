@@ -18,7 +18,7 @@ const Benefits = () => {
                     </h1>
                     <p className='text-[1.4vmax] pt-10'>Unlock unique advantages with Fibonacci SOIT</p>
                 </div>
-                <div className="pt-20 flex gap-10 overflow-hidden relative">
+                <div className="pt-20 flex gap-8 overflow-hidden relative">
 
                     <Flipcard />
                 </div>

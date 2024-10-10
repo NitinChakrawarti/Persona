@@ -42,7 +42,7 @@ const Flipcard = () => {
 
     return (
         <div className='overflow-hidden relative'>
-            <div className='flex gap-12'>
+            <div className='flex gap-8'>
                 {benefitsData.map((benefit, index) => (
                     <ReactCardFlip
                         key={index}
